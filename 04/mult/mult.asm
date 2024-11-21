@@ -8,19 +8,19 @@
 
 // Put your code here.
 @R0
-M=1
-@i
+D=M
+@16 //RAM[16]常用來存放計數器，i
 M=1
 @R2
 M=0
 
-(LOOP)
-@i
+//(LOOP)
+@16
 D=M
 @R1
 D=D-M
-@END
-D,JGT
+@22 //@END
+D;JGT
 
 @R2
 D=M
@@ -29,12 +29,15 @@ D=D+M
 @R2 
 M=D
 
-@i
-D=i+1
+@16
+//D=M+1 不能寫這樣，因為這樣RAM[16]的值不會更新(會讀到舊的值)
+M=M+1
 
-@LOOP
+@6 //@LOOP
 0;JMP
 
-(END)
+//(END)
+@22 //@END    
+0;JMP
 
 

@@ -1,18 +1,19 @@
 #include <stdio.h>
 
-int mult(int n){
-    int j=2; 
-    int i=1;
-    int s=0;
-LOOP:
-    if(i>n) goto END;
+int mult(int R1){
+    int R0=2; //@R0,M=2
+    int i=1; //@i,M=1
+    int R2=0; //@R2,M=0
+LOOP:        //(LOOP)
+    if(i>R1) goto END;//@i,D=M,@R1,D=D-M,@END,D;JGT
+    //n=R1
     //while(i<=n){
-        s=s+j;
-        i++;
+        R2=R2+R0;//@R2,D=M,@R0,D=D+M ,@R2 M=D
+        i++;//@i,D=i+1
     //}
-    goto LOOP;
-END:
-    return s;
+    goto LOOP;//@LOOP, 0;JMP
+END: //(END)
+    return R2; 
 
 }
 int main(void){
