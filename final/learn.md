@@ -5,28 +5,28 @@
 > not,and,or
 <img src="https://github.com/linpeic/_co/blob/master/01/not_and_or.jpg" width="300" />
 > xor,nand
-![xor_nand](https://github.com/linpeic/_co/blob/master/01/xor_nand.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/01/xor_nand.jpg" width="300" />
 > mux4way16
-![mux4way16](https://github.com/linpeic/_co/blob/master/01/mux4way16.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/01/mux4way16.jpg" width="300" />
 > mux
-![mux](https://github.com/linpeic/_co/blob/master/01/mux.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/01/mux.jpg" width="300" />
 > dmux8way
-![dmux8way](https://github.com/linpeic/_co/blob/master/01/dmux8way.jpg)
-![dmux8way_2](https://github.com/linpeic/_co/blob/master/01/dmux8way_2.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/01/dmux8way.jpg" width="300" />
+<img src="https://github.com/linpeic/_co/blob/master/01/dmux8way_2.jpg" width="300" />
 > dmux4way
-![dmux4way](https://github.com/linpeic/_co/blob/master/01/dmux4way.jpg)
-![dmux4way_2](https://github.com/linpeic/_co/blob/master/01/dmux4way_2.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/01/dmux4way.jpg" width="300" />
+<img src="https://github.com/linpeic/_co/blob/master/01/dmux4way_2.jpg" width="300" />
 > dmux
-![dmux](https://github.com/linpeic/_co/blob/master/01/dmux.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/01/dmux.jpg" width="300" />
 > add
-![add](https://github.com/linpeic/_co/blob/master/02/add16.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/02/add16.jpg" width="300" />
 > halfadd
-![halfadd](https://github.com/linpeic/_co/blob/master/02/halfadd.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/02/halfadd.jpg" width="300" />
 > inc16：這個我卡了一個禮拜，因為false、true、0、1的問題的問題
-![inc16](https://github.com/linpeic/_co/blob/master/02/inc16.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/02/inc16.jpg" width="300" />
 > mult：相乘，有先用c語言寫出，再轉成機器語言
 > Fill
-![Fill](https://github.com/linpeic/_co/blob/master/04/Fill.jpg)
+<img src="https://github.com/linpeic/_co/blob/master/04/Fill.jpg" width="300" />
 
 ![]()
 
