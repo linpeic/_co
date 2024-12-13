@@ -10,7 +10,6 @@
 // When no key is pressed, the program clears the screen, i.e. writes
 // "white" in every pixel;
 // the screen should remain fully clear as long as no key is pressed.
-
 // Put your code here.
 //螢幕記憶體:16384 - 24575
 //鍵盤記憶體:24576
@@ -35,7 +34,6 @@ D=D-M
 @BLACK
 D;JGE
 
-
 @16384
 D=A
 M=-1
@@ -43,7 +41,6 @@ M=-1
 M=M+1
 @LOOP
 0;JMP
-
 
 //變白
 (BLACK)
