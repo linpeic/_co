@@ -1,5 +1,6 @@
 #ALU
 ##班級：資工二 學號：111210522 姓名：林沛欣
+
 波形模擬圖：
 > ALU
 <img src="https://github.com/linpeic/_co/blob/master/final/%E5%9C%96.jpg" width="auto" />
