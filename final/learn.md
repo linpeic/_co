@@ -18,7 +18,7 @@
 <img src="https://github.com/linpeic/_co/blob/master/01/dmux8way.jpg" width="300" />
 <img src="https://github.com/linpeic/_co/blob/master/01/dmux8way_2.jpg" width="300" />
 
-> dmux4way
+> dmux4way：這一題，我因為最高位放錯位置，所以卡了一節課，所幸最後找到問題，解決了
 <img src="https://github.com/linpeic/_co/blob/master/01/dmux4way.jpg" width="300" />
 <img src="https://github.com/linpeic/_co/blob/master/01/dmux4way_2.jpg" width="300" />
 
