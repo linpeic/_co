@@ -3,7 +3,7 @@
 學習筆記：
 這堂課，是我之前沒有接觸過的，所以對我而言沒有很容易，寫課堂作業時，也遇到了許多問題，一開始我先拿出的數位邏輯課本，加上作圖，前面基本的習題都順利地做出來了，但是難度慢慢的增加，我遇到問題會問Chatgpt、詢問老師，寫到fill時，我開始看網路上的教學影片。
 > not,and,or
-<img src="https://github.com/linpeic/_co/blob/master/01/not_and_or.jpg" width="100" />
+<img src="https://github.com/linpeic/_co/blob/master/01/not_and_or.jpg" width="300" />
 > xor,nand
 ![xor_nand](https://github.com/linpeic/_co/blob/master/01/xor_nand.jpg)
 > mux4way16
