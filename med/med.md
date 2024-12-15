@@ -57,6 +57,7 @@
 
 ### 第六週習題 -- 第三章後半部
 有用chatgpt協助debug
+
 [RAM512](https://github.com/linpeic/_co/blob/master/03/b/RAM512.hdl)
 
 [RAM4K](https://github.com/linpeic/_co/blob/master/03/b/RAM4K.hdl)
@@ -74,10 +75,12 @@
 
 ### 第九週習題 -- 第五章 CPU
 有用chatgpt協助debug
+
 [CPU](https://github.com/linpeic/_co/blob/master/05/CPU.hdl)
 
 ### 第十週習題 -- 第五章 後半部
 有用chatgpt協助debug
+
 [Ｍemory](https://github.com/linpeic/_co/blob/master/05/Memory.hdl)
 
 [Computer](https://github.com/linpeic/_co/blob/master/05/Computer.hdl)
