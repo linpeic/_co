@@ -28,4 +28,27 @@ CHIP Memory {
 
     PARTS:
     // Put your code here:
+    //16384=2的14次方 ~的15次方=>screen 第15位元=1，第14位元=0
+    //2的0~2的13次方=>RAM，可用address[14](第15位元)是否等於零，來判斷是不是RAM
+    //螢幕記憶4575
+    //鍵盤記憶體:24576
+    //RAM記憶體位址:0 - 32767
+    //screen:8K  =>10......... 第15位元=1
+    //RAM:16K    =>0.......... 第15位元=0
+    //keyboard   =>11......... 
+
+    Not(in=address[14],out=RAM16);
+
+    //address[14]=0 =>RAM體:16384 - 2
+    //判斷是否為螢幕
+    And(a=address[14],b=load,out=Screenload);
+    And(a=RAM16,b=load,out=RAMload);
+
+    RAM16K(in=in,load=RAMload,address=address[0..13],out=outRAM);
+    Screen(in=in,load=Screenload,address=address[0..12],out=outscreen);
+    //螢幕內只有8192(2^13)=>0~12
+    Keyboard(out=outkeyboard);
+
+    Mux16(a=outscreen,b=outkeyboard,sel=address[13],out=SorK);
+    Mux16(a=outRAM,b=SorK,sel=address[14],out=out);
 }
