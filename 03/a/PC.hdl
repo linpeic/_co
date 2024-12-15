@@ -17,4 +17,14 @@ CHIP PC {
 
     PARTS:
     // Put your code here:
+    //重置、增量、加載、存
+    //reset
+    Mux16(a=in,b=false,sel=reset,out=resetout);
+    //inc
+    inc16(in=resetout,out=resetoutplus1);
+    //load
+    Mux16(a=resetoutplus1,b=in,sel=load,out=loadout);
+
+    Register(in=loadout,load=true,out=out);
+
 }
