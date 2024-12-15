@@ -20,4 +20,11 @@ CHIP Computer {
 
     PARTS:
     // Put your code here:
+
+    //控制Memory的操作，將Memory的資料傳到CPU
+    Memory(in=inMemory,load=loadMemory,address=addressMemory,out=outMemory);
+    //從Memory讀取資料，根據ROM執行操作，並決定要不要把結果寫回記憶體
+    CPU(inM=outMemory,instruction=instruction,reset=reset,outM=inM,writeM=loadM,addressM=addressMomery,pc=pc);
+    //將讀取到的指令 送入CPU執行
+    ROM(in=pc,out=instruction);
 }
