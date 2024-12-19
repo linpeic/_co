@@ -8,6 +8,6 @@
 2.[ALU](https://github.com/linpeic/_co/blob/master/final/ALU.md)
 
 參考資料：
-習題程式碼
+架構介紹
 [VHDL](https://classroom.google.com/c/NzEzNzM5NDQ2MTY4/m/NzI2MzczNjA4NTE2/details)
 Chatgpt協助debug
