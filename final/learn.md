@@ -30,7 +30,7 @@
 > halfadd
 <img src="https://github.com/linpeic/_co/blob/master/02/halfadd.jpg" width="300" />
 
-> inc16：這個我卡了一個禮拜，因為false、true、0、1的問題的問題
+> inc16：這個我卡了一個禮拜，因為false、true、0、1的問題
 <img src="https://github.com/linpeic/_co/blob/master/02/inc16.jpg" width="300" />
 
 > mult：相乘，有先用c語言寫出，再轉成機器語言
