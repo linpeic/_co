@@ -15,6 +15,7 @@ CHIP DMux {
 
     PARTS:
     // Put your code here:
+    //sel=0輸出a，sel=1輸出b
     Not(in=sel,out=n1a);
     And(a=in,b=n1a,out=a);
     And(a=in,b=sel,out=b);

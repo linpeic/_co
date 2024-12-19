@@ -15,6 +15,8 @@
 [DMux](https://github.com/linpeic/_co/blob/master/01/DMux.hdl)
 
 ### 第二週習題：第一章 習題全部完成
+有用chatgpt協助debug
+
 [Not16](https://github.com/linpeic/_co/blob/master/01/Not16.hdl)
 
 [And16](https://github.com/linpeic/_co/blob/master/01/And16.hdl)
