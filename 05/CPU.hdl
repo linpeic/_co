@@ -56,7 +56,7 @@ CHIP CPU {
     //A_Register
     Not(in=AorC,out=isA);             // 判斷否是為A指令
     And(a=AorC,b=d1,out=ALUtoA);     // 由d1判斷C指令是否要將ALU的結果存進A_Register
-    Or(a=isA,b=ALUtoA,out=Aload);   // 當為A指令或是C指令需要存A值，則Aload = 1 (此控制A_Rgister是否存入新值)
+    Or(a=isA,b=ALUtoA,out=Aload);   // 當為A指令或是C指令需要存A值，Aload = 1 (此控制A_Rgister是否存入新值)
     ARegister(in=if1,load=Aload,out=Aout,out[0..14]=addressM);
     //如果Aload=1，if1載入A_Register，Aout=A暫存器輸出，其他15位用於記憶體位址
 
