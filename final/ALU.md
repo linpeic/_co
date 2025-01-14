@@ -2,6 +2,7 @@
 ##班級：資工二 學號：111210522 姓名：林沛欣
 
 檔案:https://drive.google.com/drive/folders/1dD29Spr_p9IT9YKTTo17Q6TP9Aw40apF?usp=drive_link
+
 波形模擬圖：
 > ALU
 <img src="https://github.com/linpeic/_co/blob/master/final/%E5%9C%96.jpg" width="auto" />
